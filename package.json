@@ -1,5 +1,5 @@
 {
-  "name": "txts-js-wrapper",
+  "name": "txts.js",
   "version": "1.0.0",
   "type": "module",
   "description": "API client for interacting with txts",
@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "speedyman09",
+  "author": "speedyman77",
   "license": "ISC",
   "dependencies": {
     "jsdom": "^22.1.0",

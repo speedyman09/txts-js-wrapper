@@ -81,10 +81,6 @@ export class txtsClient {
                         "secret": secret
                     })
                 });
-                // const html = response.text()
-                // const jsdom = new JSDOM(html)
-                // jsdom.serialize()
-                // console.log(jsdom.serialize())
                 if (!response.ok) {
                     throw new Error(`HTTP error! Status: ${response.status}`);
                 }
