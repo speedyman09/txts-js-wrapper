@@ -1,0 +1,19 @@
+{
+  "name": "txts-js-wrapper",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "API client for interacting with txts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "speedyman09",
+  "license": "ISC",
+  "dependencies": {
+    "fetch-cookie": "^2.1.0",
+    "jsdom": "^22.1.0",
+    "node-fetch": "^3.3.2",
+    "node-fetch-cookies": "^2.0.4",
+    "tough-cookie": "^4.1.3"
+  }
+}
