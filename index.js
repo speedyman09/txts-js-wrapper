@@ -72,6 +72,8 @@ export class txtsClient {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/x-www-form-urlencoded",
+                        "Origin": this.url,
+                        "Referer": `${this.url}/@${username}/edit`
                     },
                     body: new URLSearchParams({
                         "__RequestVerificationToken": tokenValue,
@@ -79,7 +81,10 @@ export class txtsClient {
                         "secret": secret
                     })
                 });
-
+                // const html = response.text()
+                // const jsdom = new JSDOM(html)
+                // jsdom.serialize()
+                // console.log(jsdom.serialize())
                 if (!response.ok) {
                     throw new Error(`HTTP error! Status: ${response.status}`);
                 }
